@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Car - Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="car-selection">
+        <h1>Select Your Car</h1>
+        <div class="car-list">
+            <div class="car">
+                <img src="Creta.jpg" alt="Creta">
+                <h2>Creta</h2>
+                <p>Car Number:MH 12 RS 2328</p>
+                <p>Electric, 396 miles range, 0-60 mph in 1.99 sec</p>
+                <button onclick="selectCar('Creta', 'MH 12 RS 2328')">Select</button>
+            </div>
+            
+            <div class="car">
+                <img src="KiaSonet.jpg" alt="KiaSonet">
+                <h2>Kia</h2>
+                <p>Car Number: MH 14 SR 5678</p>
+                <p>Luxury SUV, 3.0L engine, 335 HP</p>
+                <button onclick="selectCar('KiaSonet', 'MH 14 SR 5678')">Select</button>
+            </div>
+            
+            <div class="car">
+                <img src="TataPunch1.jpg" alt="TataPunch">
+                <h2>TATA Punch</h2>
+                <p>Car Number: MH 14 AU 9101</p>
+                <p>Sporty Sedan, 2.0L Turbo, 261 HP</p>
+                <button onclick="selectCar('TataPunch', 'MH 14 AU 9101')">Select</button>
+            </div>
+
+            <div class="car">
+                <img src="Ertiga.jpg" alt="Ertiga">
+                <h2>Ertiga</h2>
+                <p>Car Number:MH 12 MG 2345</p>
+                <p>Luxury SUV, 2.0L Turbo, 255 HP</p>
+                <button onclick="selectCar('Ertiga', 'MH 12 MG 2345')">Select</button>
+            </div>
+
+            <div class="car">
+                <img src="Ford Mustag.jpg" alt="Ford Mustang">
+                <h2>Ford Mustang</h2>
+                <p>Car Number:MH 22 FM 6789</p>
+                <p>Classic Muscle Car, 5.0L V8, 450 HP</p>
+                <button onclick="selectCar('Ford Mustang', 'MH 22 FM 6789')">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Car Rental App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
